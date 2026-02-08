@@ -131,6 +131,7 @@ body {
         gap: 15px;
         align-items: center;
         font-weight: 300;
+        margin-top: 30px;
         p {
           font-size: 0.9375rem;
           color: var(--Primary-blue);
@@ -162,19 +163,19 @@ body {
       }
     }
 
-    hr {
-      height: 1px;
-      color: var(--Neutral-blue800);
-      margin-bottom: 15px;
-      margin-top: 15px;
-      @media (min-width: 400px) {
-        margin-top: 24px;
-      }
-    }
     .coins {
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      position: relative;
 
+      &::before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        bottom: -1em;
+        border-bottom: 1px solid var(--Neutral-blue800);
+      }
       :first-child {
         color: var(--Primary-cyan);
         font-weight: 400;
