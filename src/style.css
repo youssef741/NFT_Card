@@ -48,6 +48,7 @@
   picture {
     display: block;
     max-width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -162,7 +163,7 @@ body {
     }
 
     hr {
-      height: 0.5px;
+      height: 1px;
       color: var(--Neutral-blue800);
       margin-bottom: 15px;
       margin-top: 15px;
