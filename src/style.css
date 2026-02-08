@@ -166,6 +166,9 @@ body {
       color: var(--Neutral-blue800);
       margin-bottom: 15px;
       margin-top: 15px;
+      @media (min-width: 400px) {
+        margin-top: 24px;
+      }
     }
     .coins {
       display: flex;
